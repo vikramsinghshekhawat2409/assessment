@@ -46,7 +46,7 @@ def user_logout(request):
         return HttpResponse(e, status=500)
 
 
-def register(request):
+def signup(request):
     """
     performs registration of the user through forms
     :param request: includes user attributes from user form i.e first_name, last_name, email, password
